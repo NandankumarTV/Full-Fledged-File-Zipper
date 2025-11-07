@@ -23,15 +23,6 @@ Collections Framework	                    Data structures like HashMap, LinkedLi
 File I/O (java.io, java.nio)             	Reading and writing files/directories
 OOP Principles	                          Encapsulation, abstraction, recursion for directory traversal
 
-FileZipper/
-│
-├── FileZipper.java          # Main logic for compression & decompression
-├── HuffmanNode.java         # Node structure for Huffman Tree
-├── LinkedList.java          # Custom LinkedList implementation
-├── LinkedListNode.java      # Represents a file or folder in the linked list
-├── PairOfEncodedAndHuffmanRoot.java # Stores encoded data and Huffman root together
-└── README.md                # Project documentation
-
 
 ⚙️ How It Works
 
