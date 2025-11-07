@@ -10,10 +10,15 @@ The project uses a custom LinkedList-based tree structure to manage files and di
 🚀 Features
 
 📂 Compress multiple files and folders recursively
+
 🌳 Huffman Tree generation for character frequency optimization
+
 🔄 Decompression using stored Huffman trees
+
 🧭 Interactive console-based UI
+
 🧱 Supports directory structures
+
 ⚡ Efficient encoding and decoding using bit-level representation
 
 🧩 Technologies Used
@@ -29,23 +34,33 @@ OOP Principles	                          Encapsulation, abstraction, recursion f
 1️⃣ Compression Process
 
 Reads the given file and calculates character frequencies
+
 Builds a Huffman Tree based on these frequencies
+
 Generates binary codes for each character (0 and 1)
+
 Encodes the file into a compressed binary format
+
 Stores both the encoded data and Huffman Tree
 
 2️⃣ Decompression Process
 
 Reads the stored encoded string
+
 Uses the corresponding Huffman Tree to decode
+
 Writes the original data back into the specified destination path
 
 🧠 Core Classes & Responsibilities
 
 Class	Responsibility
+
 FileZipper	Main class that handles user input, compression, and decompression logic
+
 HuffmanNode	Represents a node in the Huffman Tree
+
 LinkedList / LinkedListNode	Custom linked list to represent folder-file hierarchy
+
 PairOfEncodedAndHuffmanRoot	Stores the encoded data string and corresponding Huffman Tree root
 
 🖥️ How to Run
@@ -88,5 +103,7 @@ Destination/
 
 
 👨‍💻 Author
+
 Nandan Kumar T V
+
 GitHub: @NandankumarTV
