@@ -24,8 +24,11 @@ The project uses a custom LinkedList-based tree structure to manage files and di
 🧩 Technologies Used
 Technology	                            Purpose
 Java (Core)	                              Main programming language
+
 Collections Framework	                    Data structures like HashMap, LinkedList, PriorityQueue
+
 File I/O (java.io, java.nio)             	Reading and writing files/directories
+
 OOP Principles	                          Encapsulation, abstraction, recursion for directory traversal
 
 
